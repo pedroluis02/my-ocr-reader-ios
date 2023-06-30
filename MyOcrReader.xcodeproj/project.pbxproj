@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAA1CA1C2A4E94EE00990952 /* MyOcrReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1CA1B2A4E94EE00990952 /* MyOcrReaderApp.swift */; };
+		AAA1CA1E2A4E94EE00990952 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1CA1D2A4E94EE00990952 /* ContentView.swift */; };
+		AAA1CA202A4E94F000990952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA1CA1F2A4E94F000990952 /* Assets.xcassets */; };
+		AAA1CA232A4E94F000990952 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA1CA222A4E94F000990952 /* Preview Assets.xcassets */; };
+		AAA1CA2D2A4E94F100990952 /* MyOcrReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1CA2C2A4E94F100990952 /* MyOcrReaderTests.swift */; };
+		AAA1CA372A4E94F100990952 /* MyOcrReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1CA362A4E94F100990952 /* MyOcrReaderUITests.swift */; };
+		AAA1CA392A4E94F100990952 /* MyOcrReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1CA382A4E94F100990952 /* MyOcrReaderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAA1CA292A4E94F100990952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA1CA102A4E94EE00990952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA1CA172A4E94EE00990952;
+			remoteInfo = MyOcrReader;
+		};
+		AAA1CA332A4E94F100990952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA1CA102A4E94EE00990952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA1CA172A4E94EE00990952;
+			remoteInfo = MyOcrReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAA1CA182A4E94EE00990952 /* MyOcrReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOcrReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA1CA1B2A4E94EE00990952 /* MyOcrReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOcrReaderApp.swift; sourceTree = "<group>"; };
+		AAA1CA1D2A4E94EE00990952 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AAA1CA1F2A4E94F000990952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAA1CA222A4E94F000990952 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAA1CA282A4E94F100990952 /* MyOcrReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyOcrReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA1CA2C2A4E94F100990952 /* MyOcrReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOcrReaderTests.swift; sourceTree = "<group>"; };
+		AAA1CA322A4E94F100990952 /* MyOcrReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyOcrReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA1CA362A4E94F100990952 /* MyOcrReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOcrReaderUITests.swift; sourceTree = "<group>"; };
+		AAA1CA382A4E94F100990952 /* MyOcrReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOcrReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAA1CA152A4E94EE00990952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA1CA252A4E94F100990952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA1CA2F2A4E94F100990952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAA1CA0F2A4E94EE00990952 = {
+			isa = PBXGroup;
+			children = (
+				AAA1CA1A2A4E94EE00990952 /* MyOcrReader */,
+				AAA1CA2B2A4E94F100990952 /* MyOcrReaderTests */,
+				AAA1CA352A4E94F100990952 /* MyOcrReaderUITests */,
+				AAA1CA192A4E94EE00990952 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAA1CA192A4E94EE00990952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAA1CA182A4E94EE00990952 /* MyOcrReader.app */,
+				AAA1CA282A4E94F100990952 /* MyOcrReaderTests.xctest */,
+				AAA1CA322A4E94F100990952 /* MyOcrReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAA1CA1A2A4E94EE00990952 /* MyOcrReader */ = {
+			isa = PBXGroup;
+			children = (
+				AAA1CA1B2A4E94EE00990952 /* MyOcrReaderApp.swift */,
+				AAA1CA1D2A4E94EE00990952 /* ContentView.swift */,
+				AAA1CA1F2A4E94F000990952 /* Assets.xcassets */,
+				AAA1CA212A4E94F000990952 /* Preview Content */,
+			);
+			path = MyOcrReader;
+			sourceTree = "<group>";
+		};
+		AAA1CA212A4E94F000990952 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AAA1CA222A4E94F000990952 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAA1CA2B2A4E94F100990952 /* MyOcrReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAA1CA2C2A4E94F100990952 /* MyOcrReaderTests.swift */,
+			);
+			path = MyOcrReaderTests;
+			sourceTree = "<group>";
+		};
+		AAA1CA352A4E94F100990952 /* MyOcrReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAA1CA362A4E94F100990952 /* MyOcrReaderUITests.swift */,
+				AAA1CA382A4E94F100990952 /* MyOcrReaderUITestsLaunchTests.swift */,
+			);
+			path = MyOcrReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAA1CA172A4E94EE00990952 /* MyOcrReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA1CA3C2A4E94F100990952 /* Build configuration list for PBXNativeTarget "MyOcrReader" */;
+			buildPhases = (
+				AAA1CA142A4E94EE00990952 /* Sources */,
+				AAA1CA152A4E94EE00990952 /* Frameworks */,
+				AAA1CA162A4E94EE00990952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyOcrReader;
+			productName = MyOcrReader;
+			productReference = AAA1CA182A4E94EE00990952 /* MyOcrReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAA1CA272A4E94F100990952 /* MyOcrReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA1CA3F2A4E94F100990952 /* Build configuration list for PBXNativeTarget "MyOcrReaderTests" */;
+			buildPhases = (
+				AAA1CA242A4E94F100990952 /* Sources */,
+				AAA1CA252A4E94F100990952 /* Frameworks */,
+				AAA1CA262A4E94F100990952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAA1CA2A2A4E94F100990952 /* PBXTargetDependency */,
+			);
+			name = MyOcrReaderTests;
+			productName = MyOcrReaderTests;
+			productReference = AAA1CA282A4E94F100990952 /* MyOcrReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAA1CA312A4E94F100990952 /* MyOcrReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA1CA422A4E94F100990952 /* Build configuration list for PBXNativeTarget "MyOcrReaderUITests" */;
+			buildPhases = (
+				AAA1CA2E2A4E94F100990952 /* Sources */,
+				AAA1CA2F2A4E94F100990952 /* Frameworks */,
+				AAA1CA302A4E94F100990952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAA1CA342A4E94F100990952 /* PBXTargetDependency */,
+			);
+			name = MyOcrReaderUITests;
+			productName = MyOcrReaderUITests;
+			productReference = AAA1CA322A4E94F100990952 /* MyOcrReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAA1CA102A4E94EE00990952 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AAA1CA172A4E94EE00990952 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					AAA1CA272A4E94F100990952 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AAA1CA172A4E94EE00990952;
+					};
+					AAA1CA312A4E94F100990952 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AAA1CA172A4E94EE00990952;
+					};
+				};
+			};
+			buildConfigurationList = AAA1CA132A4E94EE00990952 /* Build configuration list for PBXProject "MyOcrReader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAA1CA0F2A4E94EE00990952;
+			productRefGroup = AAA1CA192A4E94EE00990952 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAA1CA172A4E94EE00990952 /* MyOcrReader */,
+				AAA1CA272A4E94F100990952 /* MyOcrReaderTests */,
+				AAA1CA312A4E94F100990952 /* MyOcrReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAA1CA162A4E94EE00990952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA1CA232A4E94F000990952 /* Preview Assets.xcassets in Resources */,
+				AAA1CA202A4E94F000990952 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA1CA262A4E94F100990952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA1CA302A4E94F100990952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAA1CA142A4E94EE00990952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA1CA1E2A4E94EE00990952 /* ContentView.swift in Sources */,
+				AAA1CA1C2A4E94EE00990952 /* MyOcrReaderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA1CA242A4E94F100990952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA1CA2D2A4E94F100990952 /* MyOcrReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA1CA2E2A4E94F100990952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA1CA392A4E94F100990952 /* MyOcrReaderUITestsLaunchTests.swift in Sources */,
+				AAA1CA372A4E94F100990952 /* MyOcrReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAA1CA2A2A4E94F100990952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAA1CA172A4E94EE00990952 /* MyOcrReader */;
+			targetProxy = AAA1CA292A4E94F100990952 /* PBXContainerItemProxy */;
+		};
+		AAA1CA342A4E94F100990952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAA1CA172A4E94EE00990952 /* MyOcrReader */;
+			targetProxy = AAA1CA332A4E94F100990952 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AAA1CA3A2A4E94F100990952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAA1CA3B2A4E94F100990952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAA1CA3D2A4E94F100990952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyOcrReader/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.pedroluis02.MyOcrReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAA1CA3E2A4E94F100990952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyOcrReader/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.pedroluis02.MyOcrReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAA1CA402A4E94F100990952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.pedroluis02.MyOcrReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyOcrReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyOcrReader";
+			};
+			name = Debug;
+		};
+		AAA1CA412A4E94F100990952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.pedroluis02.MyOcrReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyOcrReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyOcrReader";
+			};
+			name = Release;
+		};
+		AAA1CA432A4E94F100990952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.pedroluis02.MyOcrReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyOcrReader;
+			};
+			name = Debug;
+		};
+		AAA1CA442A4E94F100990952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.pedroluis02.MyOcrReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyOcrReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAA1CA132A4E94EE00990952 /* Build configuration list for PBXProject "MyOcrReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA1CA3A2A4E94F100990952 /* Debug */,
+				AAA1CA3B2A4E94F100990952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA1CA3C2A4E94F100990952 /* Build configuration list for PBXNativeTarget "MyOcrReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA1CA3D2A4E94F100990952 /* Debug */,
+				AAA1CA3E2A4E94F100990952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA1CA3F2A4E94F100990952 /* Build configuration list for PBXNativeTarget "MyOcrReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA1CA402A4E94F100990952 /* Debug */,
+				AAA1CA412A4E94F100990952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA1CA422A4E94F100990952 /* Build configuration list for PBXNativeTarget "MyOcrReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA1CA432A4E94F100990952 /* Debug */,
+				AAA1CA442A4E94F100990952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAA1CA102A4E94EE00990952 /* Project object */;
+}
