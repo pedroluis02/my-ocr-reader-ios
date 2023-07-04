@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		149B40AC41FAC16D97621B2B /* Pods_MyOcrReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76812998572062E58F660494 /* Pods_MyOcrReader.framework */; };
+		5C3E0F268FA824987716DA53 /* Pods_MyOcrReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6587469E88D8251D082BFB24 /* Pods_MyOcrReaderTests.framework */; };
 		AAA1CA1C2A4E94EE00990952 /* MyOcrReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1CA1B2A4E94EE00990952 /* MyOcrReaderApp.swift */; };
 		AAA1CA1E2A4E94EE00990952 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1CA1D2A4E94EE00990952 /* ContentView.swift */; };
 		AAA1CA202A4E94F000990952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA1CA1F2A4E94F000990952 /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		AAA1CA2D2A4E94F100990952 /* MyOcrReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1CA2C2A4E94F100990952 /* MyOcrReaderTests.swift */; };
 		AAA1CA372A4E94F100990952 /* MyOcrReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1CA362A4E94F100990952 /* MyOcrReaderUITests.swift */; };
 		AAA1CA392A4E94F100990952 /* MyOcrReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1CA382A4E94F100990952 /* MyOcrReaderUITestsLaunchTests.swift */; };
+		B105226C317E3553275A4AFD /* Pods_MyOcrReader_MyOcrReaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C04DDDA95B52DC28669BF66 /* Pods_MyOcrReader_MyOcrReaderUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CAE7CBC43FDEE113F51285C /* Pods-MyOcrReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOcrReader.release.xcconfig"; path = "Target Support Files/Pods-MyOcrReader/Pods-MyOcrReader.release.xcconfig"; sourceTree = "<group>"; };
+		355FE1CBF35D644F3EAC1FAD /* Pods-MyOcrReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOcrReaderTests.release.xcconfig"; path = "Target Support Files/Pods-MyOcrReaderTests/Pods-MyOcrReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		6587469E88D8251D082BFB24 /* Pods_MyOcrReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyOcrReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76812998572062E58F660494 /* Pods_MyOcrReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyOcrReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C04DDDA95B52DC28669BF66 /* Pods_MyOcrReader_MyOcrReaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyOcrReader_MyOcrReaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99513A8DF87DB33F0E92B92 /* Pods-MyOcrReader-MyOcrReaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOcrReader-MyOcrReaderUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyOcrReader-MyOcrReaderUITests/Pods-MyOcrReader-MyOcrReaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AAA1CA182A4E94EE00990952 /* MyOcrReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOcrReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA1CA1B2A4E94EE00990952 /* MyOcrReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOcrReaderApp.swift; sourceTree = "<group>"; };
 		AAA1CA1D2A4E94EE00990952 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +53,9 @@
 		AAA1CA322A4E94F100990952 /* MyOcrReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyOcrReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA1CA362A4E94F100990952 /* MyOcrReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOcrReaderUITests.swift; sourceTree = "<group>"; };
 		AAA1CA382A4E94F100990952 /* MyOcrReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOcrReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C41CAADA6DE025117823D71D /* Pods-MyOcrReader-MyOcrReaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOcrReader-MyOcrReaderUITests.release.xcconfig"; path = "Target Support Files/Pods-MyOcrReader-MyOcrReaderUITests/Pods-MyOcrReader-MyOcrReaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC5933F2058BAD985AFDA14D /* Pods-MyOcrReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOcrReaderTests.debug.xcconfig"; path = "Target Support Files/Pods-MyOcrReaderTests/Pods-MyOcrReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA58B385D1A3DCF8EA0FF0EA /* Pods-MyOcrReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOcrReader.debug.xcconfig"; path = "Target Support Files/Pods-MyOcrReader/Pods-MyOcrReader.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				149B40AC41FAC16D97621B2B /* Pods_MyOcrReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C3E0F268FA824987716DA53 /* Pods_MyOcrReaderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +79,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B105226C317E3553275A4AFD /* Pods_MyOcrReader_MyOcrReaderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		086D506BD8D989FE34FE9AB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA58B385D1A3DCF8EA0FF0EA /* Pods-MyOcrReader.debug.xcconfig */,
+				1CAE7CBC43FDEE113F51285C /* Pods-MyOcrReader.release.xcconfig */,
+				A99513A8DF87DB33F0E92B92 /* Pods-MyOcrReader-MyOcrReaderUITests.debug.xcconfig */,
+				C41CAADA6DE025117823D71D /* Pods-MyOcrReader-MyOcrReaderUITests.release.xcconfig */,
+				CC5933F2058BAD985AFDA14D /* Pods-MyOcrReaderTests.debug.xcconfig */,
+				355FE1CBF35D644F3EAC1FAD /* Pods-MyOcrReaderTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		30264212C6E1767A777DCEC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76812998572062E58F660494 /* Pods_MyOcrReader.framework */,
+				9C04DDDA95B52DC28669BF66 /* Pods_MyOcrReader_MyOcrReaderUITests.framework */,
+				6587469E88D8251D082BFB24 /* Pods_MyOcrReaderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AAA1CA0F2A4E94EE00990952 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +117,8 @@
 				AAA1CA2B2A4E94F100990952 /* MyOcrReaderTests */,
 				AAA1CA352A4E94F100990952 /* MyOcrReaderUITests */,
 				AAA1CA192A4E94EE00990952 /* Products */,
+				086D506BD8D989FE34FE9AB2 /* Pods */,
+				30264212C6E1767A777DCEC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAA1CA3C2A4E94F100990952 /* Build configuration list for PBXNativeTarget "MyOcrReader" */;
 			buildPhases = (
+				E911D7F703E79AC9E49E3B50 /* [CP] Check Pods Manifest.lock */,
 				AAA1CA142A4E94EE00990952 /* Sources */,
 				AAA1CA152A4E94EE00990952 /* Frameworks */,
 				AAA1CA162A4E94EE00990952 /* Resources */,
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAA1CA3F2A4E94F100990952 /* Build configuration list for PBXNativeTarget "MyOcrReaderTests" */;
 			buildPhases = (
+				0EE43DB62E1C8FE77A0E1897 /* [CP] Check Pods Manifest.lock */,
 				AAA1CA242A4E94F100990952 /* Sources */,
 				AAA1CA252A4E94F100990952 /* Frameworks */,
 				AAA1CA262A4E94F100990952 /* Resources */,
@@ -169,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAA1CA422A4E94F100990952 /* Build configuration list for PBXNativeTarget "MyOcrReaderUITests" */;
 			buildPhases = (
+				E3A017A0B9B04F67FD627483 /* [CP] Check Pods Manifest.lock */,
 				AAA1CA2E2A4E94F100990952 /* Sources */,
 				AAA1CA2F2A4E94F100990952 /* Frameworks */,
 				AAA1CA302A4E94F100990952 /* Resources */,
@@ -251,6 +295,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EE43DB62E1C8FE77A0E1897 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyOcrReaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3A017A0B9B04F67FD627483 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyOcrReader-MyOcrReaderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E911D7F703E79AC9E49E3B50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyOcrReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AAA1CA142A4E94EE00990952 /* Sources */ = {
@@ -411,6 +524,7 @@
 		};
 		AAA1CA3D2A4E94F100990952 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA58B385D1A3DCF8EA0FF0EA /* Pods-MyOcrReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,6 +553,7 @@
 		};
 		AAA1CA3E2A4E94F100990952 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CAE7CBC43FDEE113F51285C /* Pods-MyOcrReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,6 +582,7 @@
 		};
 		AAA1CA402A4E94F100990952 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC5933F2058BAD985AFDA14D /* Pods-MyOcrReaderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +602,7 @@
 		};
 		AAA1CA412A4E94F100990952 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 355FE1CBF35D644F3EAC1FAD /* Pods-MyOcrReaderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +622,7 @@
 		};
 		AAA1CA432A4E94F100990952 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99513A8DF87DB33F0E92B92 /* Pods-MyOcrReader-MyOcrReaderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +640,7 @@
 		};
 		AAA1CA442A4E94F100990952 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C41CAADA6DE025117823D71D /* Pods-MyOcrReader-MyOcrReaderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
