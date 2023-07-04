@@ -6,6 +6,8 @@ target 'MyOcrReader' do
   use_frameworks!
 
   # Pods for MyOcrReader
+  # To recognize Latin script
+  pod 'GoogleMLKit/TextRecognition', '3.2.0'
 
   target 'MyOcrReaderTests' do
     inherit! :search_paths

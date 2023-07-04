@@ -179,6 +179,8 @@
 				AAA1CA142A4E94EE00990952 /* Sources */,
 				AAA1CA152A4E94EE00990952 /* Frameworks */,
 				AAA1CA162A4E94EE00990952 /* Resources */,
+				549F1952E65036D73E7C5F75 /* [CP] Embed Pods Frameworks */,
+				27BE2C65E9301116F634E5EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,6 +218,8 @@
 				AAA1CA2E2A4E94F100990952 /* Sources */,
 				AAA1CA2F2A4E94F100990952 /* Frameworks */,
 				AAA1CA302A4E94F100990952 /* Resources */,
+				EF8D247AC55093C21655DCB7 /* [CP] Embed Pods Frameworks */,
+				6537F466383B706801A4C4AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -319,6 +323,57 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		27BE2C65E9301116F634E5EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyOcrReader/Pods-MyOcrReader-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyOcrReader/Pods-MyOcrReader-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyOcrReader/Pods-MyOcrReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		549F1952E65036D73E7C5F75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyOcrReader/Pods-MyOcrReader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyOcrReader/Pods-MyOcrReader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyOcrReader/Pods-MyOcrReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6537F466383B706801A4C4AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyOcrReader-MyOcrReaderUITests/Pods-MyOcrReader-MyOcrReaderUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyOcrReader-MyOcrReaderUITests/Pods-MyOcrReader-MyOcrReaderUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyOcrReader-MyOcrReaderUITests/Pods-MyOcrReader-MyOcrReaderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E3A017A0B9B04F67FD627483 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,6 +416,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF8D247AC55093C21655DCB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyOcrReader-MyOcrReaderUITests/Pods-MyOcrReader-MyOcrReaderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyOcrReader-MyOcrReaderUITests/Pods-MyOcrReader-MyOcrReaderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyOcrReader-MyOcrReaderUITests/Pods-MyOcrReader-MyOcrReaderUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
