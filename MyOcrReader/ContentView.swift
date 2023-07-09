@@ -9,34 +9,30 @@ import SwiftUI
 import PhotosUI
 
 struct ContentView: View {
-    @State private var selectedItem: PhotosPickerItem? = nil
-    @State private var selectedImageData: Data? = nil
+    @ObservedObject var viewModel: ContentViewModel = ContentViewModel()
     
     var body: some View {
-        VStack {
-            Image(systemName: "swift")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("OCR Reader").padding()
-            PhotosPicker(selection: $selectedItem, matching: .images, photoLibrary: .shared()) {
-                Text("Load an image")
-            }.onChange(of: selectedItem) { newItem in
-                Task {
-                    if let data = try? await newItem?.loadTransferable(type: Data.self) {
-                        selectedImageData = data
-                    }
-                }
-            }
-            
-            if let selectedImageData,
-               let uiImage = UIImage(data: selectedImageData) {
-                Image(uiImage: uiImage)
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 250, height: 250)
+        NavigationStack {
+            VStack {
+                Image(systemName: "swift")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("OCR Reader").padding()
+                PhotosPicker(selection: $viewModel.selectedItem, matching: .images, photoLibrary: .shared()) {
+                    Text("Load an image")
+                }.onChange(of: viewModel.selectedItem, perform: viewModel.loadNewImage)
+            }.navigationDestination(isPresented: $viewModel.presentNextView) {
+                textRecognizerView($viewModel.selectedImageData)
+                    .navigationBarTitle("Text Recognition", displayMode: .inline)
             }
         }
     }
+}
+
+@ViewBuilder
+private func textRecognizerView(_ imageData: Binding<Data?>) -> some View {
+    let viewModel = TextRecognizerViewModel(imageData)
+    TextRecognizerView(viewModel: viewModel)
 }
 
 struct ContentView_Previews: PreviewProvider {
