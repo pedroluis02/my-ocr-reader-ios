@@ -24,6 +24,8 @@ struct ContentView: View {
             }.navigationDestination(isPresented: $viewModel.presentNextView) {
                 textRecognizerView($viewModel.selectedImageData)
                     .navigationBarTitle("Text Recognition", displayMode: .inline)
+            }.alert(isPresented: $viewModel.showErrorAlert) {
+                Alert(title: Text("Load Image"), message: Text(viewModel.lastErrorMessage), dismissButton: .cancel(Text("OK")))
             }
         }
     }

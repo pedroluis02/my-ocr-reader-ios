@@ -13,6 +13,9 @@ class ContentViewModel: ObservableObject {
     @Published var presentNextView: Bool = false
     @Published var selectedItem: PhotosPickerItem? = nil
     @Published var selectedImageData: Data? = nil
+    
+    @Published var showErrorAlert: Bool = false
+    @Published var lastErrorMessage: String = ""
      
     func loadNewImage(newItem: PhotosPickerItem?) {
         Task {
@@ -25,6 +28,8 @@ class ContentViewModel: ObservableObject {
                 presentNextView = false
                 
                 print("load image: \(error)")
+                showErrorAlert = true
+                lastErrorMessage = error.localizedDescription
             }
         }
     }
