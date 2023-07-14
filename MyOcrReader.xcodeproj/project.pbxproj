@@ -10,6 +10,8 @@
 		149B40AC41FAC16D97621B2B /* Pods_MyOcrReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76812998572062E58F660494 /* Pods_MyOcrReader.framework */; };
 		5C3E0F268FA824987716DA53 /* Pods_MyOcrReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6587469E88D8251D082BFB24 /* Pods_MyOcrReaderTests.framework */; };
 		AA0D6BA62A53D102008D6F81 /* TextRecognizerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0D6BA52A53D102008D6F81 /* TextRecognizerViewModel.swift */; };
+		AA52E1832A5E58C500359061 /* CameraUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA52E1822A5E58C500359061 /* CameraUIViewController.swift */; };
+		AA52E1852A5E5B7100359061 /* CameraUIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA52E1842A5E5B7100359061 /* CameraUIKitView.swift */; };
 		AAA1CA1C2A4E94EE00990952 /* MyOcrReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1CA1B2A4E94EE00990952 /* MyOcrReaderApp.swift */; };
 		AAA1CA1E2A4E94EE00990952 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1CA1D2A4E94EE00990952 /* ContentView.swift */; };
 		AAA1CA202A4E94F000990952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA1CA1F2A4E94F000990952 /* Assets.xcassets */; };
@@ -49,6 +51,8 @@
 		9C04DDDA95B52DC28669BF66 /* Pods_MyOcrReader_MyOcrReaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyOcrReader_MyOcrReaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A99513A8DF87DB33F0E92B92 /* Pods-MyOcrReader-MyOcrReaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOcrReader-MyOcrReaderUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyOcrReader-MyOcrReaderUITests/Pods-MyOcrReader-MyOcrReaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA0D6BA52A53D102008D6F81 /* TextRecognizerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizerViewModel.swift; sourceTree = "<group>"; };
+		AA52E1822A5E58C500359061 /* CameraUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraUIViewController.swift; sourceTree = "<group>"; };
+		AA52E1842A5E5B7100359061 /* CameraUIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraUIKitView.swift; sourceTree = "<group>"; };
 		AAA1CA182A4E94EE00990952 /* MyOcrReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOcrReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA1CA1B2A4E94EE00990952 /* MyOcrReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOcrReaderApp.swift; sourceTree = "<group>"; };
 		AAA1CA1D2A4E94EE00990952 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -119,6 +123,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AA52E1812A5E580D00359061 /* CameraUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				AA52E1822A5E58C500359061 /* CameraUIViewController.swift */,
+				AA52E1842A5E5B7100359061 /* CameraUIKitView.swift */,
+			);
+			path = CameraUIKit;
+			sourceTree = "<group>";
+		};
 		AAA1CA0F2A4E94EE00990952 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +157,7 @@
 		AAA1CA1A2A4E94EE00990952 /* MyOcrReader */ = {
 			isa = PBXGroup;
 			children = (
+				AA52E1812A5E580D00359061 /* CameraUIKit */,
 				AAA1CA1B2A4E94EE00990952 /* MyOcrReaderApp.swift */,
 				AAA1CA1D2A4E94EE00990952 /* ContentView.swift */,
 				AAD2256D2A5A7562005D949E /* ContentViewModel.swift */,
@@ -461,6 +475,8 @@
 				AAA1CA1E2A4E94EE00990952 /* ContentView.swift in Sources */,
 				AAD2256E2A5A7562005D949E /* ContentViewModel.swift in Sources */,
 				AAD225682A59FF52005D949E /* TextRecognizerService.swift in Sources */,
+				AA52E1852A5E5B7100359061 /* CameraUIKitView.swift in Sources */,
+				AA52E1832A5E58C500359061 /* CameraUIViewController.swift in Sources */,
 				AAA1CA1C2A4E94EE00990952 /* MyOcrReaderApp.swift in Sources */,
 				AA0D6BA62A53D102008D6F81 /* TextRecognizerViewModel.swift in Sources */,
 			);
