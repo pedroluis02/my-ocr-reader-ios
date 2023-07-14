@@ -19,6 +19,7 @@
 		AAA1CA2D2A4E94F100990952 /* MyOcrReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1CA2C2A4E94F100990952 /* MyOcrReaderTests.swift */; };
 		AAA1CA372A4E94F100990952 /* MyOcrReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1CA362A4E94F100990952 /* MyOcrReaderUITests.swift */; };
 		AAA1CA392A4E94F100990952 /* MyOcrReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1CA382A4E94F100990952 /* MyOcrReaderUITestsLaunchTests.swift */; };
+		AACC79F62A60E3BF00BDD346 /* CameraImageAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACC79F52A60E3BF00BDD346 /* CameraImageAnalyzer.swift */; };
 		AAD225682A59FF52005D949E /* TextRecognizerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD225672A59FF52005D949E /* TextRecognizerService.swift */; };
 		AAD2256A2A5A03DA005D949E /* MLKitTextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD225692A5A03DA005D949E /* MLKitTextRecognizer.swift */; };
 		AAD2256C2A5A15C5005D949E /* TextRecognizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD2256B2A5A15C5005D949E /* TextRecognizerView.swift */; };
@@ -63,6 +64,7 @@
 		AAA1CA322A4E94F100990952 /* MyOcrReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyOcrReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA1CA362A4E94F100990952 /* MyOcrReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOcrReaderUITests.swift; sourceTree = "<group>"; };
 		AAA1CA382A4E94F100990952 /* MyOcrReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOcrReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AACC79F52A60E3BF00BDD346 /* CameraImageAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraImageAnalyzer.swift; sourceTree = "<group>"; };
 		AAD225672A59FF52005D949E /* TextRecognizerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizerService.swift; sourceTree = "<group>"; };
 		AAD225692A5A03DA005D949E /* MLKitTextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLKitTextRecognizer.swift; sourceTree = "<group>"; };
 		AAD2256B2A5A15C5005D949E /* TextRecognizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizerView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			children = (
 				AA52E1822A5E58C500359061 /* CameraUIViewController.swift */,
 				AA52E1842A5E5B7100359061 /* CameraUIKitView.swift */,
+				AACC79F52A60E3BF00BDD346 /* CameraImageAnalyzer.swift */,
 			);
 			path = CameraUIKit;
 			sourceTree = "<group>";
@@ -478,6 +481,7 @@
 				AA52E1852A5E5B7100359061 /* CameraUIKitView.swift in Sources */,
 				AA52E1832A5E58C500359061 /* CameraUIViewController.swift in Sources */,
 				AAA1CA1C2A4E94EE00990952 /* MyOcrReaderApp.swift in Sources */,
+				AACC79F62A60E3BF00BDD346 /* CameraImageAnalyzer.swift in Sources */,
 				AA0D6BA62A53D102008D6F81 /* TextRecognizerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
