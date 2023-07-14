@@ -8,5 +8,5 @@
 import CoreMedia
 
 protocol CameraImageAnalyzer {
-    func analyze(_ buffer: CMSampleBuffer, isBackPosition: Bool)
+    func analyze(_ buffer: CMSampleBuffer,_ isBackPosition: Bool)
 }

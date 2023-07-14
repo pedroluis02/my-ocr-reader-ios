@@ -9,8 +9,9 @@ import UIKit
 import AVFoundation
 import MLKit
 
-class CameraUIViewController : UIViewController {
+class CameraUIViewController : UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
     private var permissionGranted: Bool = false
+    
     private let devicePosition: AVCaptureDevice.Position = .back
     
     private let captureSession: AVCaptureSession = AVCaptureSession()
@@ -18,6 +19,18 @@ class CameraUIViewController : UIViewController {
     
     private var previewLayer: AVCaptureVideoPreviewLayer = AVCaptureVideoPreviewLayer()
     private var screenRect: CGRect! = nil
+    
+    private var captureVideoOuput: AVCaptureVideoDataOutput? = nil
+    private var imageAnalyzer: CameraImageAnalyzer? = nil
+    
+    init(imageAnalyzer: CameraImageAnalyzer? = nil) {
+        self.imageAnalyzer = imageAnalyzer
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+    }
     
     override func viewDidLoad() {
         checkPermission()
@@ -34,6 +47,10 @@ class CameraUIViewController : UIViewController {
         previewLayer.connection?.videoOrientation = currentAVOrientation()
     }
     
+    func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
+        imageAnalyzer?.analyze(sampleBuffer, (devicePosition == .back))
+    }
+    
     private func setupCaptureSession() {
         guard let captureDevice = AVCaptureDevice.default(.builtInDualWideCamera, for: .video, position: devicePosition) else { return }
         guard let captureDeviceInput = try? AVCaptureDeviceInput(device: captureDevice) else { return }
@@ -47,6 +64,14 @@ class CameraUIViewController : UIViewController {
         previewLayer.frame = CGRect(x: 0, y: 0, width: screenRect.size.width, height: screenRect.size.height)
         previewLayer.videoGravity = AVLayerVideoGravity.resizeAspectFill
         previewLayer.connection?.videoOrientation = .portrait
+        
+        if (imageAnalyzer != nil) {
+            captureVideoOuput = AVCaptureVideoDataOutput()
+            captureVideoOuput?.setSampleBufferDelegate(self, queue: DispatchQueue(label: "sampleBufferQueue"))
+            captureSession.addOutput(captureVideoOuput!)
+            
+            captureVideoOuput?.connection(with: .video)?.videoOrientation = .portrait
+        }
         
         DispatchQueue.main.async {
             self.view.layer.addSublayer(self.previewLayer)

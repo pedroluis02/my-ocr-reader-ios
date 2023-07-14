@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct CameraUIKitView : UIViewControllerRepresentable {
+    private var imageAnalyzer: CameraImageAnalyzer? = nil
+    
+    init(imageAnalyzer: CameraImageAnalyzer? = nil) {
+        self.imageAnalyzer = imageAnalyzer
+    }
+    
     func makeUIViewController(context: Context) -> CameraUIViewController {
-        return CameraUIViewController()
+        return CameraUIViewController(imageAnalyzer: imageAnalyzer)
     }
     
     func updateUIViewController(_ uiViewController: CameraUIViewController, context: Context) {
