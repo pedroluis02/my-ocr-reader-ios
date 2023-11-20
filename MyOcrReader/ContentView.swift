@@ -10,6 +10,7 @@ import PhotosUI
 
 struct ContentView: View {
     @ObservedObject var viewModel: ContentViewModel = ContentViewModel()
+    private var imageAnalyzer: CameraImageAnalyzer? = nil
     
     var body: some View {
         NavigationStack {
@@ -21,6 +22,12 @@ struct ContentView: View {
                 PhotosPicker(selection: $viewModel.selectedItem, matching: .images, photoLibrary: .shared()) {
                     Text("Load an image")
                 }.onChange(of: viewModel.selectedItem, perform: viewModel.loadNewImage)
+                NavigationLink() {
+                    CameraUIKitView(imageAnalyzer: imageAnalyzer)
+                        .ignoresSafeArea()
+                } label: {
+                    Text("Open camera")
+                }.padding(.top, 4)
             }.navigationDestination(isPresented: $viewModel.presentNextView) {
                 textRecognizerView($viewModel.selectedImageData)
                     .navigationBarTitle("Text Recognition", displayMode: .inline)
